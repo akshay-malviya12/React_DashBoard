@@ -1,0 +1,51 @@
+#root {
+  width: 100%;   /* pura screen cover karega */
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.responsive-text {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 768px) {
+  .responsive-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .responsive-text {
+    font-size: 0.875rem;
+  }
+}
+
+@media (max-width: 390px) {
+  .sidebar {
+    min-height: 172vh;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    min-height: 148vh;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 480px) {
+   .sidebar {
+    min-height: 170vh;
+    overflow-y: auto;
+  }
+}
+
+@media (max-width: 480px) {
+   .sidebar {
+    min-height: 170vh;
+    overflow-y: auto;
+  }
+}
+
