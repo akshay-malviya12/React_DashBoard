@@ -10,8 +10,8 @@ function TopNavbar() {
         <Navbar.Collapse id="navbarScroll">
           {/* Centered Nav Links */}
           <Nav
-            className="mx-auto my-2 my-lg-0 gap-3 gap-xs-2 gap-md-3 gap-lg-4 fs-6 fs-md-5 fs-lg-4"
-            style={{ maxHeight: '100px',overflowY: 'auto', paddingRight: '1rem'  }}
+            className="mx-auto my-2 my-lg-0 gap-3 gap-xs-1 gap-md-2 gap-lg-4 fs-6 fs-md-5 fs-lg-4"
+            style={{ maxHeight: '100px'  }}
             navbarScroll
           >
             <Nav.Link href="#action1">Home</Nav.Link>
