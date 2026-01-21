@@ -5,7 +5,7 @@ function TopNavbar() {
   return (
     <Navbar expand="lg" bg="dark" variant="dark">
       <Container fluid>
-        <Navbar.Brand href="#" className="me-auto ms-5">Dashboard</Navbar.Brand>
+        <Navbar.Brand href="#" className="me-auto ms-5">Dashboard Page</Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll">
           {/* Centered Nav Links */}
